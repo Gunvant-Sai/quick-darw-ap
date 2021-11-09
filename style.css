@@ -1,0 +1,56 @@
+body {
+    background-color: chartreuse;
+}
+
+h1{
+    color: crimson;
+    background-color: blanchedalmond;
+    border: black;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    line-height: 1.3;
+}
+
+#show_sketch {
+    float: right;
+}
+
+#MePro {
+    font-size: 27px;
+}
+
+#MeNoob {
+    font-size: 27px;
+}
+
+#Drawn {
+    font-size: 27px;
+}
+
+#Clear {
+    font-size: larger;
+}
+
+canvas {
+border: 5px ridge white;
+border-radius: 20px;
+animation-name: Example-Pro;
+margin-top: 15px;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+
+@keyframes Example-Pro {
+    from{box-shadow:  6px 6px 32px mediumslateblue};
+    to{box-shadow: 6px 6px 32px black};
+}
+
+#Score {
+    float: left;
+    font-size: medium;
+}
+
+#Timer {
+    float: right;
+    font-size: medium;
+}
